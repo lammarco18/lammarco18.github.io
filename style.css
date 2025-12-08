@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f5f7fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+a {
+  color: #1554b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Header */
+
+.site-header {
+  background: #0b1b3b;
+  color: #fdfdfd;
+  padding: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.site-subtitle {
+  margin: 0.15rem 0 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.main-nav {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.main-nav a {
+  color: #fdfdfd;
+  opacity: 0.85;
+}
+
+.main-nav a:hover {
+  opacity: 1;
+}
+
+.lang-switch {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.lang-btn {
+  border: 1px solid #fdfdfd55;
+  background: transparent;
+  color: #fdfdfd;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.lang-btn.active {
+  background: #fdfdfd;
+  color: #0b1b3b;
+}
+
+/* Sections */
+
+.section-block {
+  margin: 2.5rem 0;
+  background: #ffffff;
+  padding: 1.75rem 1.75rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(15,35,80,0.08);
+}
+
+.section-block h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #e0e4f0;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+/* Cards */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fdfdfd;
+  border-radius: 0.9rem;
+  padding: 1.25rem 1.35rem 1.4rem;
+  box-shadow: 0 4px 12px rgba(15,35,80,0.06);
+  border: 1px solid #e4e7f2;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  font-size: 1.1rem;
+}
+
+.card-meta {
+  font-size: 0.82rem;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.card-list {
+  padding-left: 1.1rem;
+  margin: 0.4rem 0;
+}
+
+.card-tags {
+  margin-top: 0.75rem;
+}
+
+/* Chips */
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  background: #e1ebff;
+  font-size: 0.75rem;
+  color: #133a7f;
+}
+
+/* About */
+
+.tagline {
+  margin-top: 0.75rem;
+  font-style: italic;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.info-grid h3 {
+  margin-top: 0;
+}
+
+/* Utilities */
+
+.hidden {
+  display: none;
+}
+
+/* Footer */
+
+.site-footer {
+  padding: 1.5rem 0 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Responsive */
+
+@media (max-width: 720px) {
+  .header-inner {
+    align-items: flex-start;
+  }
+  .main-nav {
+    order: 3;
+  }
+  .lang-switch {
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Marco Lamberti – Civil Engineer & Software Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Marco Lamberti, Civil Engineer specialized in dam engineering, numerical modelling and engineering software development (Python, MySQL, Flutter, IoT).">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <h1 class="site-title">Marco Lamberti</h1>
+        <p class="site-subtitle">Civil Engineer &amp; Engineering Software Developer</p>
+      </div>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#civil">Civil Engineering</a>
+        <a href="#software">Software &amp; Digitalization</a>
+        <a href="#iot">IoT &amp; Personal Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="lang-switch">
+        <button data-lang="en" class="lang-btn active">EN</button>
+        <button data-lang="de" class="lang-btn">DE</button>
+        <button data-lang="it" class="lang-btn">IT</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ================= ENGLISH ================= -->
+    <section class="lang-section" data-lang="en">
+      <section id="about" class="section-block">
+        <h2>About</h2>
+        <p>
+          I am a Civil Engineer specialized in <strong>dam engineering</strong>, 
+          <strong>numerical modelling</strong> and <strong>hydraulic structures</strong>,
+          with a parallel professional focus on <strong>software development</strong>,
+          <strong>data analysis</strong>, <strong>databases</strong> and 
+          <strong>IoT / mobile applications</strong>.
+        </p>
+        <p>
+          I enjoy building advanced <strong>FEM models</strong> for large dams and
+          infrastructures, and developing <strong>engineering tools</strong> in 
+          <strong>Python</strong>, <strong>MySQL</strong>, <strong>Flutter</strong> and 
+          <strong>ESP32-based systems</strong> to automate workflows, improve insight 
+          from monitoring data and support decision making.
+        </p>
+        <p class="tagline">
+          Combining real-world infrastructure experience with modern software and data tools.
+        </p>
+
+        <div class="chips">
+          <span class="chip">Dam Engineering</span>
+          <span class="chip">Numerical Modelling (FEM)</span>
+          <span class="chip">Python &amp; MySQL</span>
+          <span class="chip">Flutter &amp; Android</span>
+          <span class="chip">ESP32 &amp; LoRa</span>
+          <span class="chip">Data Analysis &amp; Monitoring</span>
+        </div>
+
+        <div class="info-grid">
+          <div>
+            <h3>Languages</h3>
+            <ul>
+              <li>Italian – native</li>
+              <li>English – fluent (C1)</li>
+              <li>German – intermediate (B1–B2)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Links</h3>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/marco-lamberti-engineer" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://github.com/lammarco18" target="_blank" rel="noopener">GitHub: lammarco18</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="civil" class="section-block">
+        <h2>Civil Engineering Projects</h2>
+        <div class="card-grid">
+
+          <article class="card">
+            <h3>Arch Dam Heightening – 3D Numerical &amp; Thermal Analysis</h3>
+            <p class="card-meta">Large arch dam • ~120 m • Dam heightening project • 2023 – ongoing</p>
+            <p>
+              3D numerical modelling and thermal analysis for the planned heightening of a 
+              large arch dam in a mountainous region. The goal is to evaluate the stress state 
+              of the raised dam under construction stages and operating conditions, and to compare 
+              results against existing reference calculations.
+            </p>
+            <ul class="card-list">
+              <li>3D FEM static analysis and staged-construction modelling with <strong>FLAC3D</strong>.</li>
+              <li>Thermal assessment (maximum temperature, gradients, cracking risk) during casting and cooling.</li>
+              <li>Comparison and calibration of numerical models with established design approaches.</li>
+              <li>Use of <strong>Python scripting</strong> and in-house tools for pre- and post-processing.</li>
+            </ul>
+            <p class="card-tags">
+              <span class="chip">FEM</span>
+              <span class="chip">Thermal Analysis</span>
+              <span class="chip">Static Analysis</span>
+              <span class="chip">FLAC3D</span>
+              <span class="chip">Python</span>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Seismic Assessment of a Portfolio of Large Dams</h3>
+            <p class="card-meta">Concrete gravity &amp; masonry dams • H up to ~160 m • 2021 – ongoing</p>
+            <p>
+              Seismic and static safety assessment for a portfolio of large dams located in 
+              low seismicity regions. Monitoring data are also analysed to evaluate 
+              dam behaviour under different loading conditions.
+            </p>
+            <ul class="card-list">
+              <li>Static and seismic checks with <strong>CADAM2D/3D</strong> and <strong>FLAC2D</strong>.</li>
+              <li>Assessment of dam behaviour using monitoring time series.</li>
+              <li>Post-seismic behaviour evaluation and material parameter investigations.</li>
+              <li>Development of <strong>Python tools</strong> and GUI for data analysis and reporting.</li>
+            </ul>
+            <p class="card-tags">
+              <span class="chip">Seismic Analysis</span>
+              <span class="chip">Dam Behaviour</span>
+              <span class="chip">Monitoring</span>
+              <span class="chip">CADAM</span>
+              <span class="chip">FLAC2D</span>
+              <span class="chip">Python</span>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Monitoring Support for a Large Hollow Dam</h3>
+            <p class="card-meta">Hollow dam • ~100 m • 2023 – ongoing</p>
+            <p>
+              Advisory services within the monitoring activities during reservoir 
+              impoundment phases. Preparation of periodic monitoring reports using 
+              internal tools and procedures.
+            </p>
+            <ul class="card-list">
+              <li>Interpretation of dam monitoring data and behaviour trends.</li>
+              <li>Data processing, visualization and reporting with in-house systems.</li>
+              <li>Support in defining and evaluating monitoring programs.</li>
+            </ul>
+            <p class="card-tags">
+              <span class="chip">Dam Monitoring</span>
+              <span class="chip">Data Analysis</span>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Bottom Outlet Redesign for an Existing Gravity Dam</h3>
+            <p class="card-meta">2021 – 2022</p>
+            <p>
+              Hydraulic design of a new bottom outlet for an existing concrete gravity dam, 
+              including capacity, geometry and operating regime. The project also considered 
+              sediment management and integration with the existing hydraulic system.
+            </p>
+            <ul class="card-list">
+              <li>Hydraulic calculations for different parts of the structure and discharge regime.</li>
+              <li>Definition of operating curves and storage levels.</li>
+              <li>Use of VBA-based tools for calculations and documentation.</li>
+            </ul>
+            <p class="card-tags">
+              <span class="chip">Hydraulic Design</span>
+              <span class="chip">Sediment Management</span>
+              <span class="chip">VBA</span>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Dam-Breach &amp; Flood Modelling Study for a Mountain Basin</h3>
+            <p class="card-meta">2021</p>
+            <p>
+              Update of a dam-breach and flood-wave propagation study for a hypothetical 
+              failure scenario affecting a mountain river catchment.
+            </p>
+            <ul class="card-list">
+              <li>Dam breach scenario definition and numerical simulation.</li>
+              <li>Flood propagation modelling along the valley.</li>
+              <li>Support to risk assessment for downstream areas.</li>
+            </ul>
+            <p class="card-tags">
+              <span class="chip">Dam Breach</span>
+              <span class="chip">Flood Modelling</span>
+              <span class="chip">Hydrology</span>
+              <span class="chip">Numerical Simulation</span>
+            </p>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="software" class="section-block">
+        <h2>Software &amp; Digitalization Projects</h2>
+        <div class="card-grid">
+
+          <article class="card">
+            <h3>Internal Dam Monitoring Platform – New Features</h3>
+            <p class="card-meta">2023 – ongoing</p>
+            <p>
+              Contribution to the development of new features for an internal software 
+              platform for integrated interpretation of dam monitoring data. The goal is to 
+              improve the description of dam behaviour under special conditions and to 
+              streamline data analysis workflows.
+            </p>
+            <ul class="card-list">
+              <li>Python scripting for data processing and monitoring model extensions.</li>
+              <li>Integration with <strong>MySQL</strong> databases and web-based components.</li>
+              <li>Design and implementation of new analysis and visualization modules.</li>
+            </ul>
+            <p class="card-tags">
+              <span class="chip">Python</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">Dam Monitoring</span>
+              <span class="chip">Web Application</span>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Mobile App for Field Monitoring Activities</h3>
+            <p class="card-meta">2023 – ongoing</p>
+            <p>
+              Development of a modern Android application to replace a legacy and 
+              no longer available device used in monitoring workflows, preserving 
+              existing input/output file handling while upgrading the user experience.
+            </p>
+            <ul class="card-list">
+              <li>Implementation of the app with <strong>Flutter</strong>.</li>
+              <li>UX improvements and additional features for field usage.</li>
+              <li>Seamless integration with existing monitoring processes.</li>
+            </ul>
+            <p class="card-tags">
+              <span class="chip">Flutter</span>
+              <span class="chip">Mobile Application</span>
+              <span class="chip">Digitalization</span>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Internal Reference Portal (NRP)</h3>
+            <p class="card-meta">2023 – ongoing</p>
+            <p>
+              Internal portal (NRP) designed to centralize engineering project information in a single 
+              <strong>MySQL</strong> database. The application allows project search by 
+              keywords and generates reference sheets for different purposes.
+            </p>
+            <ul class="card-list">
+              <li>Back-end development in <strong>Python (Flask)</strong>.</li>
+              <li>Integration with MySQL and another internal database via APIs.</li>
+              <li>Integration of <strong>AI-based tools</strong> to support field completion and automatic translations.</li>
+            </ul>
+            <p class="card-tags">
+              <span class="chip">Python</span>
+              <span class="chip">Flask</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">API</span>
+              <span class="chip">Web Application</span>
+              <span class="chip">Digitalization</span>
+              <span class="chip">AI</span>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>AI Applications for Engineering Workflows</h3>
+            <p>
+              Ongoing work on using AI and machine learning to support and optimize 
+              engineering processes, with a focus on monitoring data, anomaly detection 
+              and decision support tools.
+            </p>
+            <p class="card-tags">
+              <span class="chip">AI</span>
+              <span class="chip">Machine Learning</span>
+              <span class="chip">Data Analysis</span>
+            </p>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="iot" class="section-block">
+        <h2>IoT &amp; Personal Projects</h></h2>
+        <div class="card-grid">
+
+          <article class="card">
+            <h3>Beehive Monitoring System (ESP32 + LoRa + Flutter)</h3>
+            <p>
+              Real-time monitoring system for beehives, measuring weight, temperature, 
+              humidity and event logs.
+            </p>
+            <ul class="card-list">
+              <li>Low-power <strong>ESP32</strong> nodes with LoRa communication.</li>
+              <li>Data transmission via MQTT and integration with cloud / local database.</li>
+              <li>Mobile app in <strong>Flutter</strong> for data visualization and hive diary.</li>
+              <li>Custom 3D-printed components for outdoor hardware integration.</li>
+            </ul>
+            <p class="card-tags">
+              <span class="chip">ESP32</span>
+              <span class="chip">LoRa</span>
+              <span class="chip">MQTT</span>
+              <span class="chip">Flutter</span>
+              <span class="chip">3D Printing</span>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Stock Market Tracking Database &amp; ML Models</h3>
+            <p>
+              Development of a database and Python-based workflows to track stock market 
+              evolution over time and to test machine-learning models for investment strategies.
+            </p>
+            <p class="card-tags">
+              <span class="chip">Python</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">Machine Learning</span>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Workflow Automation with n8n</h3>
+            <p>
+              Design and implementation of automated workflows using <strong>n8n</strong> 
+              to orchestrate tasks, data processing and integrations between services.
+            </p>
+            <p class="card-tags">
+              <span class="chip">n8n</span>
+              <span class="chip">Automation</span>
+              <span class="chip">APIs</span>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Python Calculation Tool for Gravity Dams</h3>
+            <p>
+              Standalone Python software for performing standard calculations on concrete 
+              gravity dams, supporting preliminary design and safety checks.
+            </p>
+            <p class="card-tags">
+              <span class="chip">Python</span>
+              <span class="chip">Dam Engineering</span>
+              <span class="chip">Calculation Tool</span>
+            </p>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="contact" class="section-block">
+        <h2>Contact</h2>
+        <p>
+          For professional networking or technical discussions, you can reach me at:
+        </p>
+        <ul>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/marco-lamberti-engineer" target="_blank" rel="noopener">Profile</a></li>
+          <li>GitHub: <a href="https://github.com/lammarco18" target="_blank" rel="noopener">lammarco18</a></li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- ================= DEUTSCH ================= -->
+    <section class="lang-section hidden" data-lang="de">
+      <section id="about-de" class="section-block">
+        <h2>Über mich</h2>
+        <p>
+          Ich bin Bauingenieur mit Spezialisierung auf <strong>Talsperren</strong>, 
+          <strong>numerische Modellierung</strong> und <strong>hydraulische Bauwerke</strong>
+          und verfolge parallel eine zweite Laufbahn im Bereich 
+          <strong>Softwareentwicklung</strong>, <strong>Datenanalyse</strong>, 
+          <strong>Datenbanken</strong> sowie <strong>IoT- und Mobile-Anwendungen</strong>.
+        </p>
+        <p>
+          Ich verbinde praktische Erfahrungen aus Projekten an realen Infrastrukturen mit 
+          modernen Werkzeugen wie <strong>Python</strong>, <strong>MySQL</strong>, 
+          <strong>Flutter</strong> und <strong>ESP32</strong>, um Arbeitsabläufe zu 
+          automatisieren und Monitoringdaten besser zu nutzen.
+        </p>
+      </section>
+
+      <section id="civil-de" class="section-block">
+        <h2>Referenzen – Bauingenieurwesen</h2>
+        <ul>
+          <li><strong>Erhöhung einer Bogenstaumauer</strong> – 3D-FEM- und thermische Nachweise mit FLAC3D.</li>
+          <li><strong>Seismische Nachweise für ein Portfolio grosser Talsperren</strong> – statische, seismische und Monitoring-Analysen mit CADAM und FLAC2D.</li>
+          <li><strong>Monitoring-Unterstützung für eine grosse Hohlstaumauer</strong> – Auswertung von Monitoringdaten und Berichterstellung.</li>
+          <li><strong>Neuauslegung eines Grundablasses</strong> – hydraulische Berechnungen und Sedimentbewirtschaftung.</li>
+          <li><strong>Dammbruch- und Flutwellensimulation für ein Gebirgseinzugsgebiet</strong> – Aktualisierung von Modellen und Szenarien.</li>
+        </ul>
+      </section>
+
+      <section id="software-de" class="section-block">
+        <h2>Software &amp; Digitalisierung</h2>
+        <ul>
+          <li>Mitentwicklung neuer Funktionen einer internen Monitoring-Plattform (Python, MySQL, Webanwendung).</li>
+          <li>Entwicklung einer mobilen App für Monitoring-Einsätze im Feld (Flutter, Android).</li>
+          <li>Aufbau eines internen Referenzportals (NRP) für Projektwissen (Python/Flask, MySQL, API, KI-Unterstützung).</li>
+          <li>Entwicklung von KI-Anwendungen zur Unterstützung und Optimierung von Ingenieurprozessen.</li>
+        </ul>
+      </section>
+
+      <section id="iot-de" class="section-block">
+        <h2>IoT &amp; persönliche Projekte</h2>
+        <ul>
+          <li>IoT-System für <strong>Bienenstock-Monitoring</strong> (ESP32, LoRa, MQTT, Flutter, 3D-Druck).</li>
+          <li>Datenbank und Workflows zur <strong>Aktienmarkt-Analyse</strong> mit ML-Modellen.</li>
+          <li><strong>Workflow-Automatisierung</strong> mit n8n.</li>
+          <li>Python-Software für <strong>Berechnungen von Gewichtsdämmen</strong>.</li>
+        </ul>
+      </section>
+
+      <section id="contact-de" class="section-block">
+        <h2>Kontakt</h2>
+        <p>
+          Für berufliches Networking oder technischen Austausch erreichen Sie mich unter:
+        </p>
+        <ul>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/marco-lamberti-engineer" target="_blank" rel="noopener">Profil</a></li>
+          <li>GitHub: <a href="https://github.com/lammarco18" target="_blank" rel="noopener">lammarco18</a></li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- ================= ITALIANO ================= -->
+    <section class="lang-section hidden" data-lang="it">
+      <section id="about-it" class="section-block">
+        <h2>Chi sono</h2>
+        <p>
+          Sono un Ingegnere Civile specializzato in <strong>ingegneria delle dighe</strong>, 
+          <strong>modellazione numerica</strong> e <strong>opere idrauliche</strong>, con una 
+          seconda anima professionale nello <strong>sviluppo software</strong>, 
+          <strong>analisi dati</strong>, <strong>basi di dati</strong> e 
+          <strong>applicazioni IoT e mobile</strong>.
+        </p>
+        <p>
+          Unisco esperienza su progetti reali (dighe, infrastrutture idrauliche) con strumenti 
+          moderni come <strong>Python</strong>, <strong>MySQL</strong>, <strong>Flutter</strong> 
+          ed <strong>ESP32</strong>, creando strumenti che automatizzano i flussi di lavoro e 
+          valorizzano i dati di monitoraggio.
+        </p>
+      </section>
+
+      <section id="civil-it" class="section-block">
+        <h2>Progetti di Ingegneria Civile</h2>
+        <ul>
+          <li><strong>Innalzamento di una diga ad arco</strong> – Modellazione 3D FEM e verifiche statiche e termiche con FLAC3D.</li>
+          <li><strong>Verifiche sismiche di un portafoglio di grandi dighe</strong> – Analisi statiche, sismiche e dei dati di monitoraggio.</li>
+          <li><strong>Supporto al monitoraggio di una grande diga a gravità cava</strong> – Interpretazione dei dati e redazione di rapporti periodici.</li>
+          <li><strong>Ridisegno dello scarico di fondo di una diga</strong> – Progetto idraulico, capacità di scarico e gestione sedimenti.</li>
+          <li><strong>Studio di rottura diga e propagazione dell’onda di piena</strong> per un bacino montano.</li>
+        </ul>
+      </section>
+
+      <section id="software-it" class="section-block">
+        <h2>Software &amp; Digitalizzazione</h2>
+        <ul>
+          <li>Sviluppo di nuove funzionalità per una piattaforma interna di monitoraggio dighe (Python, MySQL, web).</li>
+          <li>Sviluppo di una app Android per le attività di monitoraggio in campo (Flutter).</li>
+          <li>Sviluppo di un portale interno di referenze (NRP) per progetti di ingegneria (Python/Flask, MySQL, API, strumenti IA).</li>
+          <li>Applicazioni di <strong>AI</strong> per ottimizzare processi nel campo dell’ingegneria.</li>
+        </ul>
+      </section>
+
+      <section id="iot-it" class="section-block">
+        <h2>IoT &amp; Progetti Personali</h2>
+        <ul>
+          <li>Sistema di <strong>monitoraggio arnie</strong> (ESP32, LoRa, MQTT, Flutter, componenti stampati in 3D).</li>
+          <li>Database e workflow per <strong>analisi del mercato azionario</strong> con modelli ML.</li>
+          <li><strong>Automazione di task</strong> con n8n.</li>
+          <li>Software di calcolo per <strong>dighe a gravità</strong> in Python.</li>
+        </ul>
+      </section>
+
+      <section id="contact-it" class="section-block">
+        <h2>Contatti</h2>
+        <p>
+          Per networking professionale o discussioni tecniche, puoi contattarmi a:
+        </p>
+        <ul>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/marco-lamberti-engineer" target="_blank" rel="noopener">Profilo</a></li>
+          <li>GitHub: <a href="https://github.com/lammarco18" target="_blank" rel="noopener">lammarco18</a></li>
+        </ul>
+      </section>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Marco Lamberti – Civil Engineer &amp; Engineering Software Developer</p>
+    </div>
+  </footer>
+
+  <script>
+    // Language switching
+    const langButtons = document.querySelectorAll('.lang-btn');
+    const langSections = document.querySelectorAll('.lang-section');
+
+    langButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.getAttribute('data-lang');
+        langButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        langSections.forEach(section => {
+          if (section.getAttribute('data-lang') === lang) {
+            section.classList.remove('hidden');
+          } else {
+            section.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    // Year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
